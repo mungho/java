@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Bai1_3_1 {
+public class Bai1_3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter a number: ");
@@ -112,6 +112,8 @@ public class Bai1_3_1 {
                 return "eight";
             case (9):
                 return "nine";
+            default:
+                break;
         }
         return "";
     }
