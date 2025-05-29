@@ -2,9 +2,9 @@ package Bai5_access_modifier.ProductManagement;
 
 import java.util.Scanner;
 
-public class ProductManagement {
+public class Controller {
     public static void main(String[] args) {
-        ProductFunction productFunction = new ProductFunction();
+        ProductService productFunction = new ProductService();
 
         while (true) {
             runFunction(productFunction);
@@ -12,9 +12,13 @@ public class ProductManagement {
         }
     }
 
-    public static void runFunction(ProductFunction productFunction) {
+    public static void runFunction(ProductService productFunction) {
         Scanner scanner = new Scanner(System.in);
 //        ProductFunction productFunction = new ProductFunction();
+        final int DISPLAY = 1;
+        final int ADD = 2;
+        final int UPDATE = 3;
+        final int DELETE = 4;
         System.out.println(
                 "--------------------------------------- \n" +
                 "What you want to do? \n" +

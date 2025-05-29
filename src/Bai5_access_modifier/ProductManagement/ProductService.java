@@ -1,6 +1,6 @@
 package Bai5_access_modifier.ProductManagement;
 
-public class ProductFunction {
+public class ProductService {
     Object[] productList = new Object[100];
 
     public void createProduct(String id, String name, double price) {
