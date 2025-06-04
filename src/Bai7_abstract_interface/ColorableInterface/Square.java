@@ -1,6 +1,6 @@
 package Bai7_abstract_interface.ColorableInterface;
 
-public class Square implements Colorable{
+public class Square implements Colorable {
     private double width;
     private double height;
 
