@@ -1,10 +1,8 @@
 package student_management.config;
 
-import student_management.model.entity.Student;
 import student_management.model.repository.StudentRepository;
 import student_management.model.service.StudentService;
 import student_management.view.StudentView;
-import vehicle_management.view.VehicleView;
 
 import java.util.Scanner;
 

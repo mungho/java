@@ -1,4 +1,4 @@
-package vehicle_management_updated.model.entity;
+package vehicles.model.entity;
 
 public class Vehicle {
     private String vehicleId;
@@ -88,15 +88,16 @@ public class Vehicle {
         this.vehiclePower = vehiclePower;
     }
 
+
     @Override
     public String toString() {
-        return "[" + "Vehicle ID: " + vehicleId +
-                "; Vehicle's Brand: " + vehicleBrand +
-                "; Production Year: " + productionYear +
-                "; Vehicle Owner: " + ownerName +
-                "; Seat Number: " + seatNumber +
-                "; Vehicle Type: " + vehicleType +
-                "; Vehicle Load Capacity: " + vehicleLoadCapacity +
-                "; Vehicle Power: " + vehiclePower + "]";
+        return vehicleId + "," +
+                vehicleBrand + "," +
+                productionYear + "," +
+                ownerName + "," +
+                seatNumber + "," +
+                vehicleType + "," +
+                vehicleLoadCapacity + "," +
+                vehiclePower ;
     }
 }
