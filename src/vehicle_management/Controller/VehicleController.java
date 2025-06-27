@@ -1,12 +1,11 @@
 package vehicle_management.Controller;
 
-import student_management.config.AppFactory;
 import vehicle_management.app_factory.Factory;
-import vehicle_management.view.VehicleView;
+import vehicle_management.view.VehicleViewUpdated;
 
 public class VehicleController {
     public static void main(String[] args) {
-        VehicleView vehicleView = Factory.createVehicleView();
+        VehicleViewUpdated vehicleView = Factory.createVehicleView();
         vehicleView.runProgram();
     }
 }
